@@ -210,3 +210,43 @@ main{
     font-size: 30px;
     font-weight: 700;
 }
+
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+
+.resume-container .res-col .res-item{
+    margin-top: 20px;
+}
+
+.resume-container .res-col .res-item h2{
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--text-color);
+    padding: 1rem 0;
+}
+
+.resume-container .res-col .res-item h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+}
+
+.resume-container .res-col .res-item p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    padding: 1rem 0;
+}
+
+.resume-container .res-col hr{
+    margin: 20px 0;
+    background-color:var(--text-color);
+    height: 1px;
+}
+
+.cv{
+    margin-top: 50px;
+    text-align: center;
+}
