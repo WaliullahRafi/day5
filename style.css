@@ -67,16 +67,83 @@ nav a{
 
 /* header design */
 .header{
-    background: #FFF8F3;
+    background-color: #FFF8F3;
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
 }
 
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+.banner .b-content{
+    max-width: 585px;
+}
+
 .banner .profile{
-    width: 500px;
+    max-width: 585px;
+}
+
+.banner .greet{
+    font-size: 45px;
+    color: #474747;
+}
+
+.banner .para{
+    margin-top: 20px;
+    font-size: #757575;
+}
+
+.banner .banner-head{
+    font-size: 85px;
+}
+
+
+/* main section design */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section design */
+
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
+}
+
+.about .heading{
+    text-align: center;
+    color: var(--text-color);
+    font-size: 35px;
+    font-weight: 700;
+    padding: 1rem 0;
+}
+
+.about .description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    max-width: 827px;
+}
+
+.about .info-container{
+    margin-top: 2rem;
+}
+
+.about .info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about .info-container .infos{
+    text-align: center;
+
 }
