@@ -34,6 +34,14 @@
     border: .1rem solid var(--main-color);
 }
 
+.heading{
+    text-align: center;
+    color: var(--text-color);
+    font-size: 35px;
+    font-weight: 700;
+    padding: 1rem 0;
+}
+
 li{
     list-style: none;
 }
@@ -105,6 +113,12 @@ nav a{
 
 
 /* main section design */
+
+main > section{
+    margin-top: 130px;
+}
+
+
 main{
     max-width: 1140px;
     margin: 0 auto;
@@ -146,4 +160,53 @@ main{
 .about .info-container .infos{
     text-align: center;
 
+}
+
+
+
+
+
+
+/* what i do? */
+
+#des{
+    padding: 30px 150px;
+    text-align: center;
+}
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skills-container .skills{
+    padding: 30px;
+
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skills-container .skills .u-name{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 1rem 0;
+}
+
+.skills-container .skills .dis{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+/* resume design */
+
+.resume-container .res-col .res-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
 }
